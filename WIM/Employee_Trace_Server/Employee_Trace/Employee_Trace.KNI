@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!-- Connect Interface File -->
 <Interface>
-<FileFingerprint>[0332535991]</FileFingerprint>
-<Version>[8.1.1.569]</Version>
-<Modified>43959</Modified>
-<FileName>[C:\Kronos\InterfaceDesigner\Interfaces\Employee_Trace\Employee_Trace.KNI]</FileName>
+<FileFingerprint>[2849082097]</FileFingerprint>
+<Version>[8.1.6.2032]</Version>
+<Modified>44126</Modified>
+<FileName>[D:\DEV\Kronos\interfacedesigner\Kronos_Files\INTERFACES\Employee_Trace\Employee_Trace.KNI]</FileName>
 <RegisteredFingerprint></RegisteredFingerprint>
 <CurrentFingerprint></CurrentFingerprint>
 <Signature></Signature>
@@ -13,8 +13,8 @@
 <LastRecordLimit>50</LastRecordLimit>
 <RegistrationName>[Employee Trace]</RegistrationName>
 <Description>[Employee Trace  - Determine the employees working with an index employee, with overlapping Shifts.&#xA;Prompt for Person, Start,end Dates and Labor Levels to consider for matching.&#xA;Version 1.2 &#xA;]</Description>
-<PCName>[PYXIS]</PCName>
-<UserName>[Kronos]</UserName>
+<PCName>[SCH3-TA05-XAP01]</PCName>
+<UserName>[matt.tyler]</UserName>
 <RenameLRS>0</RenameLRS>
 <AutoErrorNotify>0</AutoErrorNotify>
 <PerformMailNotify>0</PerformMailNotify>
@@ -24,7 +24,7 @@
 <Enabled>1</Enabled>
 <InterfaceOverrideOptions>0</InterfaceOverrideOptions>
 <StepType>0</StepType>
-<LinkOrCommand>[Interfaces\Employee_Trace\Employee_Trace.KNX]</LinkOrCommand>
+<LinkOrCommand>[Employee_Trace.KNX]</LinkOrCommand>
 <LinkValidationStamp>532464850</LinkValidationStamp>
 <LinkRunOptionsType>
 <RunOptions>
@@ -57,7 +57,7 @@
 <OutputUser></OutputUser>
 <OutputPassword></OutputPassword>
 <InputFolderName></InputFolderName>
-<OutputFolderName>[output]</OutputFolderName>
+<OutputFolderName>[WIM_OUT]</OutputFolderName>
 <SourceXmlConnection></SourceXmlConnection>
 <SrcWebServiceEndpoint></SrcWebServiceEndpoint>
 </RunOptions>

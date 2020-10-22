@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!-- Connect Link File -->
 <Link>
-<FileFingerprint>[0872243945]</FileFingerprint>
-<FullName>[Interfaces\Employee_Trace\Employee_Trace.KNX]</FullName>
-<Version>[8.1.1.569]</Version>
-<Modified>43959</Modified>
+<FileFingerprint>[4009721225]</FileFingerprint>
+<FullName>[Employee_Trace.KNX]</FullName>
+<Version>[8.1.6.2032]</Version>
+<Modified>44126</Modified>
 <VailidationStamp>532464850</VailidationStamp>
 <ActiveEmpsOnly>1</ActiveEmpsOnly>
 <ADPBatchNumber>50</ADPBatchNumber>
@@ -13,7 +13,7 @@
 <ADPBatchVariableData>[,50]</ADPBatchVariableData>
 <DestinationPassword></DestinationPassword>
 <OutputFile>[Employee_Trace.csv]</OutputFile>
-<OutputFolderName>[output]</OutputFolderName>
+<OutputFolderName>[WIM_OUT]</OutputFolderName>
 <DestinationType>1</DestinationType>
 <DestinationUser></DestinationUser>
 <SourcePassword></SourcePassword>
@@ -400,7 +400,7 @@
 <SqlText></SqlText>
 <QueryDatabase></QueryDatabase>
 <CalcErrorAction>3</CalcErrorAction>
-<UserComment></UserComment>
+<UserComment>[Match Business Unit labor levels? (Y / N)]</UserComment>
 <UniqueID>70</UniqueID>
 <BatchDataType>3</BatchDataType>
 <ActionDefined>1</ActionDefined>
@@ -410,7 +410,7 @@
 <LabelText></LabelText>
 <CalcComment></CalcComment>
 <Delimiter>[,]</Delimiter>
-<PromptText>[Include labor level 1? (Yes / No)]</PromptText>
+<PromptText>[Match Business Unit labor levels? (Y / N)]</PromptText>
 <Expanded>1</Expanded>
 <MappedFolderName></MappedFolderName>
 <UserErrorString></UserErrorString>
@@ -496,7 +496,7 @@
 <SqlText></SqlText>
 <QueryDatabase></QueryDatabase>
 <CalcErrorAction>3</CalcErrorAction>
-<UserComment></UserComment>
+<UserComment>[Match Division labor levels? (Y / N)]</UserComment>
 <UniqueID>71</UniqueID>
 <BatchDataType>3</BatchDataType>
 <ActionDefined>1</ActionDefined>
@@ -506,7 +506,7 @@
 <LabelText></LabelText>
 <CalcComment></CalcComment>
 <Delimiter>[,]</Delimiter>
-<PromptText>[Include labor level 2? (Yes / No)]</PromptText>
+<PromptText>[Match Division labor levels? (Y / N)]</PromptText>
 <Expanded>1</Expanded>
 <MappedFolderName></MappedFolderName>
 <UserErrorString></UserErrorString>
@@ -518,7 +518,7 @@
 <Name>[:LL3]</Name>
 <FillChar>[ ]</FillChar>
 <DecimalPlaces>2</DecimalPlaces>
-<ActionCode>2</ActionCode>
+<ActionCode>1</ActionCode>
 <LookupColumn>0</LookupColumn>
 <UField>
 <SourceField>
@@ -578,7 +578,7 @@
 </UField>
 <SourceProfile></SourceProfile>
 <TableName></TableName>
-<Text></Text>
+<Text>[N]</Text>
 <DateFormat>[c]</DateFormat>
 <PCDateFormat></PCDateFormat>
 <FormattedNumericValue></FormattedNumericValue>
@@ -688,7 +688,7 @@
 <SqlText></SqlText>
 <QueryDatabase></QueryDatabase>
 <CalcErrorAction>3</CalcErrorAction>
-<UserComment></UserComment>
+<UserComment>[Match District labor levels? (Y / N)]</UserComment>
 <UniqueID>73</UniqueID>
 <BatchDataType>3</BatchDataType>
 <ActionDefined>1</ActionDefined>
@@ -698,7 +698,7 @@
 <LabelText></LabelText>
 <CalcComment></CalcComment>
 <Delimiter>[,]</Delimiter>
-<PromptText>[Include labor level 4? (Yes / No)]</PromptText>
+<PromptText>[Match District labor levels? (Y / N)]</PromptText>
 <Expanded>1</Expanded>
 <MappedFolderName></MappedFolderName>
 <UserErrorString></UserErrorString>
@@ -784,7 +784,7 @@
 <SqlText></SqlText>
 <QueryDatabase></QueryDatabase>
 <CalcErrorAction>3</CalcErrorAction>
-<UserComment></UserComment>
+<UserComment>[Match Location labor levels? (Y / N)]</UserComment>
 <UniqueID>74</UniqueID>
 <BatchDataType>3</BatchDataType>
 <ActionDefined>1</ActionDefined>
@@ -794,7 +794,7 @@
 <LabelText></LabelText>
 <CalcComment></CalcComment>
 <Delimiter>[,]</Delimiter>
-<PromptText>[Include labor level 5? (Yes / No)]</PromptText>
+<PromptText>[Match Location labor levels? (Y / N)]</PromptText>
 <Expanded>1</Expanded>
 <MappedFolderName></MappedFolderName>
 <UserErrorString></UserErrorString>
@@ -880,7 +880,7 @@
 <SqlText></SqlText>
 <QueryDatabase></QueryDatabase>
 <CalcErrorAction>3</CalcErrorAction>
-<UserComment></UserComment>
+<UserComment>[Match Department labor levels? (Y / N)]</UserComment>
 <UniqueID>75</UniqueID>
 <BatchDataType>3</BatchDataType>
 <ActionDefined>1</ActionDefined>
@@ -890,7 +890,7 @@
 <LabelText></LabelText>
 <CalcComment></CalcComment>
 <Delimiter>[,]</Delimiter>
-<PromptText>[Include labor level 6? (Yes / No)]</PromptText>
+<PromptText>[Match Department labor levels? (Y / N)]</PromptText>
 <Expanded>1</Expanded>
 <MappedFolderName></MappedFolderName>
 <UserErrorString></UserErrorString>
@@ -976,7 +976,7 @@
 <SqlText></SqlText>
 <QueryDatabase></QueryDatabase>
 <CalcErrorAction>3</CalcErrorAction>
-<UserComment></UserComment>
+<UserComment>[Match Job labor levels? (Y / N)]</UserComment>
 <UniqueID>76</UniqueID>
 <BatchDataType>3</BatchDataType>
 <ActionDefined>1</ActionDefined>
@@ -986,7 +986,7 @@
 <LabelText></LabelText>
 <CalcComment></CalcComment>
 <Delimiter>[,]</Delimiter>
-<PromptText>[Include labor level 7? (Yes / No)]</PromptText>
+<PromptText>[Match Job labor levels? (Y / N)]</PromptText>
 <Expanded>1</Expanded>
 <MappedFolderName></MappedFolderName>
 <UserErrorString></UserErrorString>
@@ -11558,7 +11558,7 @@
 <Namespace></Namespace>
 </OutputField>
 <OutputField>
-<Name>[MATCH_1]</Name>
+<Name>[MATCH_LL1]</Name>
 <FillChar>[ ]</FillChar>
 <DecimalPlaces>2</DecimalPlaces>
 <ActionCode>1</ActionCode>
@@ -11653,7 +11653,7 @@
 <Namespace></Namespace>
 </OutputField>
 <OutputField>
-<Name>[MATCH_2]</Name>
+<Name>[MATCH_LL2]</Name>
 <FillChar>[ ]</FillChar>
 <DecimalPlaces>2</DecimalPlaces>
 <ActionCode>1</ActionCode>
@@ -11748,7 +11748,7 @@
 <Namespace></Namespace>
 </OutputField>
 <OutputField>
-<Name>[MATCH_3]</Name>
+<Name>[MATCH_LL3]</Name>
 <FillChar>[ ]</FillChar>
 <DecimalPlaces>2</DecimalPlaces>
 <ActionCode>1</ActionCode>
@@ -11843,7 +11843,7 @@
 <Namespace></Namespace>
 </OutputField>
 <OutputField>
-<Name>[MATCH_4]</Name>
+<Name>[MATCH_LL4]</Name>
 <FillChar>[ ]</FillChar>
 <DecimalPlaces>2</DecimalPlaces>
 <ActionCode>1</ActionCode>
@@ -11938,7 +11938,7 @@
 <Namespace></Namespace>
 </OutputField>
 <OutputField>
-<Name>[MATCH_5]</Name>
+<Name>[MATCH_LL5]</Name>
 <FillChar>[ ]</FillChar>
 <DecimalPlaces>2</DecimalPlaces>
 <ActionCode>1</ActionCode>
@@ -12033,7 +12033,7 @@
 <Namespace></Namespace>
 </OutputField>
 <OutputField>
-<Name>[MATCH_6]</Name>
+<Name>[MATCH_LL6]</Name>
 <FillChar>[ ]</FillChar>
 <DecimalPlaces>2</DecimalPlaces>
 <ActionCode>1</ActionCode>
@@ -12128,7 +12128,7 @@
 <Namespace></Namespace>
 </OutputField>
 <OutputField>
-<Name>[MATCH_7]</Name>
+<Name>[MATCH_LL7]</Name>
 <FillChar>[ ]</FillChar>
 <DecimalPlaces>2</DecimalPlaces>
 <ActionCode>1</ActionCode>
